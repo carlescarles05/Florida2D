@@ -8,12 +8,8 @@ public class Player : MonoBehaviour
     private float speed = 8f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
+
     
-    public float maxJumpHeight = 5f;
-    public float maxJumpTime = 1f;
-
-    public float jumpForce => (2f * maxJumpHeight) / (maxJumpTime / 2f);
-
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -33,12 +29,6 @@ public class Player : MonoBehaviour
         }
 
         Flip();
-    }
-
-    private void ApplyGravity()
-    {
-        bool falling = velocity.y < 0f || !Input.GetButtonDown("Jump");
-        velocity.y += gravity * Time.deltaTime;
     }
 
     private void FixedUpdate()
