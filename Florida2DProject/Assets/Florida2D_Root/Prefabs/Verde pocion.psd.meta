@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 23e229c03d8fe984a819d21e04d75733
+guid: 138f76f96df51a74192a05217521c803
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,11 +119,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pocion,Azul_0
+      name: Verde pocion_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11eb7684e098dcd479bdbf572adc5d54
-      internalID: 1943865858
+      spriteID: 1507d517af6963d44a879f2100dc8e46
+      internalID: -73788653
       vertices: []
       indices: 
       edges: []
@@ -154,7 +167,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pocion,Azul_0: 1943865858
+      Verde pocion_0: -73788653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
