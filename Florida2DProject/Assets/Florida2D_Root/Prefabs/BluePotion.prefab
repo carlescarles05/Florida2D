@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 188334376513972873}
   - component: {fileID: 2774251812196181102}
   - component: {fileID: 2313995056200310891}
+  - component: {fileID: 1391547439528555164}
   m_Layer: 6
   m_Name: BluePotion
   m_TagString: Untagged
@@ -194,3 +195,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7679024, y: 0.92412233}
   m_EdgeRadius: 0
+--- !u!114 &1391547439528555164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5559961038848322451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a01f5a1b4941b54a9d610819f65ac34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
